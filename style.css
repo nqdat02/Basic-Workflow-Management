@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 4px solid #3216eed9;
+    padding: 40px;
+}
+
+h1{
+    color: #3216eed9;
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+}
+
+.form_input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form_button{
+    margin-top: 20px;
+}
+
+#itemList{
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 50px;
+    width: 400px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}

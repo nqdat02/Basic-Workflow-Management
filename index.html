@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>B20DCPT053</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Quản lý công việc</h1>
+        <p>Công việc: </p>
+        <div class="content">
+            <form class="form_input">
+                <input type="text" id="itemInput" placeholder="">
+                <button type="button" onclick="addItem()" class="form_button">Thêm công việc</button>
+                <button type="button" onclick="clearList()" class="form_button">Xoá công việc</button>
+            </form>
+            <div id="itemList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
